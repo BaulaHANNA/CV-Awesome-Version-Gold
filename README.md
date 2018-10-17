@@ -1,6 +1,6 @@
 
 ## Preview
-You can see [PDF](https://github.com/SaidBenaissa/Cv_SBenaissa_fr/blob/master/resume.pdf)
+You can see [PDF](https://github.com/BaulaHANNA/CV-Awesome-Version-Gold/blob/master/resume.pdf)
 
 
 ### Usage
