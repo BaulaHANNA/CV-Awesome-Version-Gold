@@ -5,7 +5,7 @@ You can see [PDF](https://github.com/BaulaHANNA/CV-Awesome-Version-Gold/blob/mas
 
 ## Qucik start
 You can edit online Awesome CV Gold template on Overleaf. Feel free to use my referal link if you want to create your account.
-You can edit [Edit](https://fr.overleaf.com/13948970hgyxgnhzjpzg)
+You can edit here : [Edit](https://fr.overleaf.com/13948970hgyxgnhzjpzg)
 
 ### Usage
 
