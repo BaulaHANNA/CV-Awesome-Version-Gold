@@ -1,0 +1,76 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[11pt, a4paper]{awesome-cv}
+%%% Override a directory location for fonts(default: 'fonts/')
+\usepackage[utf8]{inputenc} 
+\usepackage[francais]{babel}
+\usepackage{fontspec}
+\usepackage{hyperref}
+\fontdir[fonts/]
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+
+\definecolor{awesome}{rgb}{0.72, 0.53, 0.04}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     3rd party packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Needed to divide into several files
+\usepackage{import}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{\hspace{-1 mm}Firstname}{NAME}
+\address{Adress, Postal Code City, Country $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$  $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ $\quad$ Born on dd$\slash$mm$\slash$yyyy in City}
+\mobile{xx.xx.xx.xx.xx} 
+%%% Social
+\email{firstname.name@gmail.com}
+\linkedin{Linkedin}
+\github{Github}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {}
+  {Firstnames NAME~~~·~~~Curriculum Vitae}
+  {\thepage}
+  
+  
+\begin{document}
+
+%%% Make a header for CV with personal data
+\makecvheader
+\hspace{13.8 cm}
+\smash{\fbox{\includegraphics[width=2.8cm]{Photo-CV}}}
+
+
+%%% Import contents
+\import{\sectiondir}{Experience.tex}
+\import{\sectiondir}{Education.tex}
+\import{\sectiondir}{Competences.tex}
+\import{\sectiondir}{Languages.tex}
+\import{\sectiondir}{writing.tex}
+\end{document}
+
+%%/end{document}
