@@ -14,7 +14,9 @@ This should result in the creation of ``{your-cv}.pdf``
 
 ## Contact
 
-If you have any questions, feel free to join me at [`hanna.baula@gmail.com`] 
+If you have any questions, feel free to join me at BaulaHANNA
 
 —
 Good luck!
+
+
